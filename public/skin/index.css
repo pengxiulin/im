@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background: #242424;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0;
+}
+.left {
+  width: 49%;
+  float: left;
+  padding: 10px 0 0 10px;
+  overflow: hidden;
+}
+.left ul {
+  overflow: hidden;
+  width: 100%;
+}
+.left ul li {
+  float: left;
+  width: 30%;
+  height: 150px;
+  border: 2px solid #666;
+  margin: 3px 2px;
+  text-align: center;
+  background: #333;
+}
+.left ul li a {
+  display: block;
+  height: 100%;
+}
+.left ul li a img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.left ul li:hover {
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 10px #fff;
+}
+.right {
+  width: 49%;
+  padding: 10px 10px 0 0;
+  float: right;
+  overflow: hidden;
+}
+.right img {
+  max-width: 100%;
+  box-shadow: 0 0 10px #000;
+}

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    div.right
+        img#current(src='http://img12.360buyimg.com/cms/g14/M0A/00/1A/rBEhV1KFzUgIAAAAAAFJQydygbYAAFp5gHVjToAAUlb700.jpg')
+    div.left
+        h2 近期文件
+        ul
+            each image in imagesSaved
+                li: a(href=image.src)
+                    img(src=image.src)
+    script(src='/script/paste.js')
+    script(src='http://misc.360buyimg.com/lib/js/e/jquery-1.2.6.pack.js')
+    script(src='/script/imgAdjust.js')
